@@ -63,3 +63,16 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+def answer_conceptual_questions() -> dict:
+    ans = {
+        'Q1': 'A',
+        'Q2': 'B',
+        'Q3': 'C',
+        'Q4': 'A',
+        'Q5': 'A'
+    }
+    return ans
+
+ans = answer_conceptual_questions()
+print(ans)
